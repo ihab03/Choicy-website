@@ -37,7 +37,7 @@ backToTopButton.addEventListener("click", function () {
 
 //swiper 1
 var swiper = new Swiper('.swiper-1', {
-    direction: 'vertical',
+    direction: 'horizontal',
     effect: 'flip', 
     
     loop: true,
@@ -52,7 +52,7 @@ var swiper = new Swiper('.swiper-1', {
       clickable: true,
     },
 
-    allowTouchMove: false, 
+ 
     mousewheel: false,
   });
 
